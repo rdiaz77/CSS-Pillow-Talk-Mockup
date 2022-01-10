@@ -1,0 +1,137 @@
+/* import a web font */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap');
+
+/* * {
+    border: 1px solid black;
+}
+
+img {
+    width: 100px;
+} */
+body {
+    background-color: violet;
+    align-content: center;
+    color: slategray;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+h1, h2, h3, h4, h5, h6  {
+        margin: 0;
+}
+h2  {
+    font-size: 1em;
+}
+h1  {
+    font-family: "Fredoka One", cursive;
+}
+/*********************************
+* Container
+*********************************/
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+
+}
+/*********************************
+* Header
+*********************************/
+header {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+
+}
+header div  {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-bottom: 0;
+    flex-direction: column;
+
+}
+header h1 {
+    text-align: left;
+
+}
+
+header div:last-child {
+    display: flex;
+    align-items: flex-end;
+}                          
+/*********************************
+* Footer
+*********************************/  
+
+footer  {
+
+    width: 90%;
+    margin: auto;
+}
+
+/*********************************
+* Main
+*********************************/
+main {
+    margin-top: 1em;
+    width: 85%;
+    flex-basis: 85%;
+
+    
+    
+}
+div [class$='row'] {
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    align-items: center;
+}
+
+.top-row  img{
+    width: 100%;
+
+
+}
+.middle-row img {
+    width: 49%;
+}
+
+.bottom-row img {
+    width: 32%;
+}
+/*********************************
+* Aside/Nav
+*********************************/
+
+aside {
+    flex-basis: 15%;
+    min-width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+ ul {
+     padding: 0;
+ }
+ 
+ li {
+     list-style: none;
+     text-align: left;
+
+
+ }
+
+
+
+
+
+
+            
